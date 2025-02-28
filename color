@@ -6,7 +6,7 @@ highlight.Parent = character
 highlight.FillColor = Color3.new(1, 1, 1) -- White color
 highlight.OutlineColor = Color3.new(1, 1, 1) -- White outline
 highlight.FillTransparency = 0 -- Adjust transparency if needed
-highlight.OutlineTransparency = 0
+highlight.OutlineTransparency = 0.5
 
 -- Update highlight parent if character respawns
 player.CharacterAdded:Connect(function(newCharacter)
